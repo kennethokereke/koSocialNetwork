@@ -1,0 +1,26 @@
+
+<ion-content>
+  <ion-slides pager (ionSlideDidChange)="slideChange()" (ionSlideDrag)="slideMove()">
+    <ion-slide>
+      <div class="diag" style="background: url('assets/imgs/whitebg.svg') no-repeat">
+        <ion-icon ios="ios-pizza" md="md-pizza" color="primary"[@bounce]='state' (@bounce.done)="animationDone()"></ion-icon>
+      </div>
+      <div [@bounce]='state'>
+        <h2>Are you hungry?</h2>
+        <p>We provide different varieties of food</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+        <div class="diag" style="background: url('assets/imgs/whitebg.svg') no-repeat">
+          <ion-icon ios="ios-people" md="md-people" color="primary" [@bounce]='state'></ion-icon>
+        </div>
+        <div [@bounce]='state'>
+          <h2>Disclaimer</h2>
+          <p>You cant actually order but 
+            <br/>
+             you can view them</p>
+          </div>
+      </ion-slide>
+  </ion-slides>
+  <button (click)="skip()" id="skip">{{ skipMsg }}</button> 
+</ion-content>

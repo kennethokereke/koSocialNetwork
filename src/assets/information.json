@@ -1,0 +1,85 @@
+{
+    "items": [
+        {
+            "name": "Pizza",
+            "children": [
+                {
+                    "name": "Special Academy Pizza",
+                    "information": "Pastrami Pork belly ball, corned beef jerky shankle landjaeger",
+                    "price": "$25"
+                },
+                {
+                    "name": "Pizza Ionic",
+                    "information": "Breaded crusted w/ cheese filling",
+                    "price": "$15"
+
+                }
+            ]
+        },
+        {
+            "name": "Chinese", 
+            "children": [
+                {
+                    "name": "Traditional",
+                    "children": [
+                    {
+                    "name": "Pork fried Rice",
+                    "information": "You can choose white rice or maybe brown rice",
+                    "price": "$10"
+                    },
+                    {
+                     "name": "seasame Chicken",
+                    "information": "You can choose white rice or maybe brown rice",
+                    "price": "$15"
+                    }
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FastFood", 
+            "children": [
+                {
+                    "name": "Mcdonalds",
+                    "children": [
+                    {
+                    "name": "Double Cheese Burger",
+                    "information": "Extra cheese burger with ham",
+                    "price": "$13"
+                    },
+                    {
+                     "name": "Big Mac",
+                    "information": "Extra pickles and unions",
+                    "price": "$15"
+                    }
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drinks", 
+            "children": [
+                {
+                    "name": "Soda",
+                    "children": [
+                    {
+                    "name": "Orange Soda",
+                    "information": "130 Calories 43g Sugar",
+                    "price": "$5"
+                    },
+                    {
+                     "name": "Grape Soda",
+                    "information": "120 calories 50g Sugar",
+                    "price": "$8"
+                    }
+
+                    ]
+                }
+            ]
+        }
+
+    ]
+
+}

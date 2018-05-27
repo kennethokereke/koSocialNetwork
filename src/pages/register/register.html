@@ -1,0 +1,26 @@
+<ion-content class="background">
+    <h1 class = "thename">Food App</h1>
+    <ion-card>
+      <ion-card-header>
+        REGISTER
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list no-lines>
+          <ion-item>
+            <ion-label floating>Email</ion-label>
+            <ion-input type= "text" #Email></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type= "Password" #Password ></ion-input>
+            </ion-item>
+            <ion-item>
+              <button (click)="Login()" id = "Login">{{ clickMe }}</button>
+            </ion-item>
+            
+            <button ion-button color="danger" block outline (click)="registerUser()">REGISTER</button>
+          </ion-list>
+           
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

@@ -1,0 +1,40 @@
+page-lists {
+    .accordin-list {
+        background: color($colors,light);
+    }
+    .section {
+        background: #fff;
+        color: #000;
+        margin-bottom: 4px;
+
+    }
+
+    .section-active {
+        background: color($colors,yell);
+        color: #fff;
+    }
+
+    .child {
+        background: #e8e7e6;
+        color: #000;
+        margin-bottom: 4px;
+    }
+
+    .child-item {
+        background: #f3f2f1;
+        padding: 20px;
+
+    }
+
+    .label {
+        margin:0px;
+
+    }
+
+    .list {
+        margin-bottom: 4px;
+    }
+
+
+
+}
